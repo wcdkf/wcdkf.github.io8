@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>中秋节快乐</title>
+	<script>
+	    var nowurl = document.location.toString();
+	    nowurl = nowurl.replace('https://','').replace('http://','').replace(window.location.host,'');
+	
+	    dwidth = '500';
+	    
+		//判断客户端设备，选择写入meta
+		function init_viewport() {
+			if (navigator.userAgent.indexOf('Android') != -1) {
+				var version = parseFloat(RegExp.$1);
+				if (version > 2.3) {
+					var width = window.outerWidth == 0 ? window.screen.width : window.outerWidth;
+					var phoneScale = parseInt(width) / 500;
+					document.write('<meta name="viewport" content="width='+ dwidth +' minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+				} else {
+					document.write('<meta name="viewport" content="width='+ dwidth +' target-densitydpi=device-dpi, user-scalable=0">');
+				}
+			} else if (navigator.userAgent.indexOf('iPhone') != -1) {
+				var phoneScale = parseInt(window.screen.width) / 500;
+				document.write('<meta name="viewport" content="width='+ dwidth +' min-height=750, initial-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', user-scalable=0" /> ');
+			} else {
+				document.write('<meta name="viewport" content="width='+ dwidth +' height=750, initial-scale=0.64" /> ');
+			}
+		}
+		
+		init_viewport();
+	</script>
+	
+	<style>
+	/* 保留核心样式，删除所有按钮相关样式 */
+	html, body {
+	    height: 100%;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	}
+
+	.iframe-div {
+		width: 100%;
+        height: 100%;
+		border: none;
+        margin: 0;
+        padding: 0;
+	}
+
+	/* 保留音乐旋转动画（若iframe内有音乐功能），删除按钮动画 */
+	@-webkit-keyframes music_play_rotate{
+	    0%{
+	        -webkit-transform:rotate(0deg);
+	    }
+	    100%{
+	        -webkit-transform:rotate(360deg);
+	    }
+	}
+	</style>
+</head>
+
+<body>
+	<!-- 仅保留iframe核心内容，删除所有功能按钮标签 -->
+	<iframe id="myframe" class="iframe-div" width="100%" src=""></iframe>
+
+<script src="https://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+    var id = "4107942";
+    var data_type = "2";
+    var vip_type = "9";
+    var temp_id = "63";
+    var views = "0";
+    var dataInfo = {"id":4107942,"nid":"e29mq8","title":"\u4e2d\u79cb\u8282\u5feb\u4e50","ftitle":"\u70b9\u51fb\u5954\u8d74\u6d6a\u6f2b\u4e2d\u79cb\ud83c\udf15","ctitle":"","temp_id":63,"cover_url":"","background_url":"","opacity":1,"music_url":"https:\/\/sf5-hl-cdn-tos.douyinstatic.com\/obj\/tos-cn-ve-2774\/okz8ItBjBg6UgdZR9hp1NIXCrJqzafNewQUDlt","data_type":2,"vip":9,"views":0,"views_update":false,"hide_btn":false};
+    dataInfo.is_mobile = /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent);
+    
+	var BASE_URL = 'https://m31.360ta.cn';
+	BASE_URL = BASE_URL + '/e29mq8';
+	var nowurl = document.location.toString();
+	nowurl = nowurl.replace('https://','').replace('http://','').replace(window.location.host,'');
+        
+    
+	const frameDom = document.getElementById('myframe');
+	var num = location.pathname.replace(/\//g, '');
+	frameDom.style.height = '100vh';
+	
+	document.getElementById('myframe').src = BASE_URL;
+	$('html').css('background','#fff');
+	var dtitle=document.title;    
+	
+	var mp_eg = 'weixin://dl/business/?appid=wxd461833fb16f0351&path=pages/index/index&query=channel';var mp_ios = 'weixin://dl/business/?appid=wxd461833fb16f0351&path=pages/index/index&query=channel';
+	eval(function(e,f,a,d,c,g){c=function(b){return(b<f?"":c(parseInt(b/f)))+(35<(b%=f)?String.fromCharCode(b+29):b.toString(36))};if(!"".replace(/^/,String)){for(;a--;)g[c(a)]=d[a]||c(a);d=[function(b){return g[b]}];c=function(){return"\\w+"};a=1}for(;a--;)d[a]&&(e=e.replace(new RegExp("\\b"+c(a)+"\\b","g"),d[a]));return e}('4 8={11:0,j:0,k:0,l:0,m:0,n:0,15:0,o:0,p:0,q:0,r:0,s:0,t:0,9:0,16:0,u:0,v:0,w:0,x:0,};y.z(e,8);4 b=c.f("A");4 g=c.f("B");d(C.D("E\u8003")>-1){g.6("2-3","F://G.H.I/J-7")}d(K 8[e]!=="L"){b.6("2-3",M)}N{d(/O|P|Q/i.R(S.T)){b.6("2-3",U)}}',
+62,70,"  data href var  setAttribute  eg_temp_ids   makeBtn document if temp_id getElementById moreBtn aTags  41 40 21 30 31 22 18 23 26 25 27 19 50 56 57 console log makeLink moreLink dtitle indexOf 2222 http m1 360ka cn cate typeof undefined mp_eg else iPhone iPad iPod test navigator userAgent mp_ios querySelectorAll div_btn forEach function getAttribute new  Date getTime toString   substr".split(" "),0,{}));
+
+    
+    
+    
+    if(dataInfo.nid.indexOf('vpaj2') > -1 || dataInfo.nid.indexOf('588') > -1 || dataInfo.nid.indexOf('x5kgh') > -1 || dataInfo.nid.indexOf('8sbjd') > -1 || dataInfo.nid.indexOf('4t2ph') > -1){
+        $("#makeLink").data('href', mp_eg);
+    }
+</script>
+
+<script>
+var nowurl = window.location.href;
+var nowref = document.referrer;
+
+var ua = navigator.userAgent.toLowerCase(); 
+if (ua.match(/MicroMessenger/i) == "micromessenger" && ua.indexOf("miniprogram") < 1 && nowurl.indexOf("wan2") < 1 && nowurl.indexOf("cate") < 1 && nowurl.indexOf("new") < 1 && nowurl.indexOf("mp") < 1 && nowurl.indexOf("zkd") < 1){ 
+	document.writeln("<script src=\"https://web-file.20it.cn/static/js/mp-jump.js?v2107\"><\/script>");
+}
+
+var _hmt = _hmt || [];
+(function() {
+	var hm = document.createElement("script");
+	var tid = "8d357a63b0968eb344c1a4e10453858b";
+	if(nowurl.indexOf('.360t') > -1){
+		tid = "8d357a63b0968eb344c1a4e10453858b";
+	}else if(nowurl.indexOf('360t')> -1){
+		tid = "5b23634820a9d1c87b1be867312a522d";
+	}else if(nowurl.indexOf('m2.360k')> -1 || nowurl.indexOf('m3.360k')> -1){
+		tid = "27f2ce04de556d7e9823742bff757bf8";
+	}else if(nowurl.indexOf('360k')> -1 || nowurl.indexOf('.wan7')> -1 || nowurl.indexOf('m1.360k')> -1){
+		tid = "13751dfc6487683f73a8594e67fa2ff2";
+	}
+	// 补全百度统计脚本（原代码缺失部分）
+	hm.src = "https://hm.baidu.com/hm.js?" + tid;
+	var s = document.getElementsByTagName("script")[0];
+	s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
